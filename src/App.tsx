@@ -5,11 +5,11 @@ import MainPage from "./pages/mainPage/MainPage";
 function App() {
   return (
     <>
-      <div className="min-h-screen flex flex-col">
+      <main className="min-h-screen flex flex-col">
         <Header />
         <MainPage />
         <Footer />
-      </div>
+      </main>
     </>
   );
 }
